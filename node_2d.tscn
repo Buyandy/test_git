@@ -1,3 +1,24 @@
-[gd_scene format=3 uid="uid://dp6gbjce18gsd"]
+[gd_scene load_steps=3 format=3 uid="uid://dp6gbjce18gsd"]
+
+[ext_resource type="Texture2D" uid="uid://csv7i100il8d6" path="res://icon.svg" id="1_o2hdu"]
+
+[sub_resource type="GDScript" id="GDScript_rjtwo"]
+script/source = "extends Sprite2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(505, 293)
+texture = ExtResource("1_o2hdu")
+script = SubResource("GDScript_rjtwo")
