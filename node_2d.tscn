@@ -20,7 +20,11 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	position += get_input()*delta
+<<<<<<< HEAD
 	
+=======
+	print('Аяпай_пидор')
+>>>>>>> 8e44386ecb12ecfd0214dac4363f65f3eaf7750b
 	
 	
 "
